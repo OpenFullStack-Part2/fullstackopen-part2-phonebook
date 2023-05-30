@@ -1,5 +1,6 @@
 import React from "react";
-const PersonsForm = ({ newName, newNumber, handlePersonsChange, handleNumberChange, addNumber }) => {
+
+const PersonsForm = ({ newName, newNumber, handlePersonsChange, handleNumberChange, addNumber, update }) => {
 return (
 <form onSubmit={addNumber}>
         <div>

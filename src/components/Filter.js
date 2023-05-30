@@ -15,7 +15,7 @@ const Filter = ({ filter, handleFilterChange, persons }) => {
         {result.length > 0 ? (
         result.map((person) => (
             
-        <p key={uuid()}>
+        <p key={person.id}>
           {person.name} {person.number}
         </p>
       ))) : ( <p>No match found</p>)}
@@ -26,3 +26,4 @@ const Filter = ({ filter, handleFilterChange, persons }) => {
 };
 
 export default Filter;
+ 
